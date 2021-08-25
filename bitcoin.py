@@ -17,7 +17,7 @@ def get_rate_of_bitcoin(to_currency="INR"):
     }
 
     headers = {
-        'x-rapidapi-key': "0b57da549bmshd45808ec9a14981p1ea4d6jsn08d8d2edba0d",
+        'x-rapidapi-key': ,
         'x-rapidapi-host': "alpha-vantage.p.rapidapi.com"
     }
 
