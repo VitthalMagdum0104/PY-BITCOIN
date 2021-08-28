@@ -19,7 +19,7 @@ def send_whatsapp(client, body):
     message = client.messages.create(
         from_='whatsapp:+14155238886',
         body=body,
-        to='whatsapp:+919420871005'
+        to='whatsapp:number with country code'
     )
 
     return message.sid
